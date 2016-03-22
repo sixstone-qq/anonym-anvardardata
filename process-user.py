@@ -8,6 +8,7 @@ import os.path
 
 
 from util.sumdiv import sum_div
+from util.constant import COL_HEADER, ROW_SEP
 
 
 # Constants
@@ -46,8 +47,8 @@ def process_file(filename, purchase_type):
 
 
 def print_header():
-    print("| first | second |")
-    print("|-------|--------|")
+    print(COL_HEADER)
+    print(ROW_SEP)
 
 
 def report(result_set):

@@ -8,11 +8,10 @@ import sys
 
 from itertools import chain, groupby
 from statistics import mean, median
+from util.constant import COL_HEADER, ROW_SEP
 
 
 # Constants
-COL_HEADER = "| first | second |"
-ROW_SEP = "|-------|--------|"
 MIN_ANON_THRESHOLD = 5
 
 
