@@ -7,7 +7,7 @@ import os
 import os.path
 
 
-from back.sumdiv import sum_div
+from util.sumdiv import sum_div
 
 
 # Constants
